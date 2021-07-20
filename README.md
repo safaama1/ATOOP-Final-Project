@@ -4,5 +4,13 @@
 **Description:**<br/>
 This project deals with the time-dependent simulation of vessels, and is designed to use the [Controller-View-Model paradigm](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).  
 <br/>
-**Model** : This is a single object which is required to be defined in the Singleton format; It is his responsibility to monitor the world of simulation in all its aspects, from time management to object storage. In particular, it must hold using pointers all the vessels and ports participating in the simulation, and provide access services to them. In addition, the object is responsible for providing update services for the view object.<br/><br/>
-**Port**:This is a simulation object with a fixed location and fuel reservoirs (without storage limit), and it is the responsibility of unloading, loading, and refueling a vessel. 
+**Model** : This is a single object which is required to be defined in the Singleton format; It is his responsibility to monitor the world of simulation in all its aspects, from time management to object storage. In particular, it must hold using pointers all the vessels and ports participating in the simulation, and provide access services to them. In addition, the object is responsible for providing update services for the view object.<br/>
+**Port** : This is a simulation object with a fixed location and fuel reservoirs (without storage limit), and it is the responsibility of unloading, loading, and refueling a vessel. 
+**Ship** : This is an object that can travel between ports and can load na unload containers in every port , every ship has a fuel tank and moves in a specific speed.<br/>
+**Types of ships :** <br/>
+**Freighter:**<br/>
+This vessel transports containers (from port to port, according to the loading and unloading orders, and cruises at a given speed from point to point subject to regular fuel consumption. Fill its cargo capacity to the maximum number of containers and aim to fill the fuel tank (depending on the existing fuel inventory in the port.) The creation of the ship occurs during the simulation.<br/>
+**Patrol_boat:**<br/>
+This vessel patrols between the various ports in the maritime space, anchors in them, and completes a return route to the point of departure. The creation of the ship occurs during the simulation.<br/>
+**Cruiser:**<br/>
+This vessel attacks and robs cargo ships or attacks patrol ships; It is not allowed to dock in ports. The creation of the ship occurs during the simulation. <br/>
