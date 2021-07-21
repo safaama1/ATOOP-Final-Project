@@ -19,4 +19,4 @@ This vessel attacks and robs cargo ships or attacks patrol ships; It is not allo
 **Controller** : This is a single object whose responsibility is to manage the interaction with the user, and to route the inputs obtained for the model. This warranty also includes the management of errors in the user inputs. <br/><br/>
 *All the commands are defined in the file src/Controller.cpp (void Controller::run())*
 <br/>
-*in the folder console there is some examples of the i/o*
+*& in the folder console there is some examples of the i/o*
