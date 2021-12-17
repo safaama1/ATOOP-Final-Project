@@ -5,8 +5,10 @@
 This project deals with the time-dependent simulation of vessels and is designed to use the [Controller-View-Model paradigm](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).  
 <br/>
 **Objects:**<br/>
-**Port**: This is a simulation object with a fixed location and fuel reservoirs (without storage limit), and it is the responsibility of unloading, loading, and refueling a vessel. <br/>
-**Ship**: This is an object that can travel between ports and can load and unload containers in every port, every ship has a fuel tank and moves at a specific speed.<br/>
+**Port**:<br/>
+This is a simulation object with a fixed location and fuel reservoirs (without storage limit), and it is the responsibility of unloading, loading, and refueling a vessel. <br/>
+**Ship**:<br/>
+This is an object that can travel between ports and can load and unload containers in every port, every ship has a fuel tank and moves at a specific speed.<br/>
 **Types of ships :** <br/>
 1) **Freighter:**<br/>
 This vessel transports containers (from port to port, according to the loading and unloading orders, and cruises at a given speed from point to point subject to regular fuel consumption. Fill its cargo capacity to the maximum number of containers and aim to fill the fuel tank (depending on the existing fuel inventory in the port.) The creation of the ship occurs during the simulation.<br/>
