@@ -10,7 +10,7 @@ This is a simulation object with a fixed location and fuel reservoirs (without s
 - **Ship**:<br/>
 This is an object that can travel between ports and can load and unload containers in every port, every ship has a fuel tank and moves at a specific speed.<br/>
 **Types of ships :** <br/>
-1) **Freighter:**<br/>
+  1) **Freighter:**<br/>
 This vessel transports containers (from port to port, according to the loading and unloading orders, and cruises at a given speed from point to point subject to regular fuel consumption. Fill its cargo capacity to the maximum number of containers and aim to fill the fuel tank (depending on the existing fuel inventory in the port.) The creation of the ship occurs during the simulation.<br/>
 2) **Patrol_boat:**<br/>
 This vessel patrols between the various ports in the maritime space anchor in them and completes a return route to the point of departure. The creation of the ship occurs during the simulation.<br/>
