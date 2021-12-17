@@ -14,6 +14,7 @@ This vessel transports containers (from port to port, according to the loading a
 This vessel patrols between the various ports in the maritime space anchor in them and completes a return route to the point of departure. The creation of the ship occurs during the simulation.<br/>
 3) **Cruiser:**<br/>
 This vessel attacks and robs cargo ships or attacks patrol ships; It is not allowed to dock in ports. The creation of the ship occurs during the simulation. <br/>
+
 **Model**: This is a single object which is required to be defined in the Singleton format; It is his responsibility to monitor the world of simulation in all its aspects, from time management to object storage. In particular, it must hold using pointers all the vessels and ports participating in the simulation, and provide access services to them. In addition, the object is responsible for providing update services for the view object.<br/>
 **View**: This object has one responsibility and is to display the world map using ASCII-based graphics.Each object is represented on the map by the first two characters of its name. The information update is based on interaction with the model.<br/>
 **Controller**: This is a single object whose responsibility is to manage the interaction with the user, and to route the inputs obtained for the model. This warranty also includes the management of errors in the user inputs. <br/><br/>
