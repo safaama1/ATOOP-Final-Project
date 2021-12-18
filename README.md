@@ -25,4 +25,4 @@ This object has one responsibility and is to display the world map using ASCII-b
 This is a single object whose responsibility is to manage the interaction with the user, and to route the inputs obtained for the model. This warranty also includes the management of errors in the user inputs. <br/><br/>
 *All the commands are defined in the file src/Controller.CPP (void Controller::run())*
 <br/>
-In the folder console there is some examples of the i/o.
+In the folder console, there are some examples of the I/O.
